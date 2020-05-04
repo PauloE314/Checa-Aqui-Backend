@@ -1,0 +1,102 @@
+{
+    "Celulares": [
+        {
+            "name": "Galaxy A10",
+            "image": "https://i.zst.com.br/images/smartphone-samsung-galaxy-a10-sm-a105m-32gb-13-0-mp-2-chips-android-9-0-pie--photo809114241-12-2b-14.jpg"
+        },
+        {
+            "name": "iPhone 11",
+            "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone11-white-select-2019?wid=834&hei=1000&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1566956148115"
+        },
+        {
+            "name": "Galaxy A20",
+            "image": "https://br.celulares.com/fotos/samsung-galaxy-a20-81256-g.jpg" 
+        }
+    ],
+    "Eletrodomésticos": [
+        {
+            "name": "Liquidificador Philco",
+             "image": "https://a-static.mlcdn.com.br/618x463/liquidificador-philco-plq800-27l-preto-com-filtro-4-velocidades-900w/magazineluiza/021728100/cb1463b328bde579146b552ea2c36de1.jpg"
+        },
+        {
+            "name": "Geladeira Brastemp",
+            "image": "https://www.pontofrio-imagens.com.br/Eletrodomesticos/GeladeiraeRefrigerador/2Portas/13585943/1217471738/geladeira-brastemp-375-litros-frost-free-2-portas-com-painel-eletronico-13585943.jpg"
+        },
+        {
+            "name": "Máquina de Lavar Brastemp",
+            "image": "https://a-static.mlcdn.com.br/1500x1500/maquina-de-lavar-brastemp-15kg-com-ciclo-edredom-especial-e-enxague-anti-alergico/whirlpool/1224/17eb5eaabbb3ccfd9c4369e2a0efaae6.jpg"
+        }
+    ],
+    "Televisões": [
+        {
+            "name": "Smart TV 4K LED 50' ",
+            "image": "https://a-static.mlcdn.com.br/618x463/smart-tv-4k-led-50-philips-50pug6513-78-wi-fi-3-hdmi-2-usb/magazineluiza/193419900/35dd78db250f1b1eba8c5f030bf8192a.jpg"
+        },
+        {
+            "name": "AOC Roku TV LED 43'",
+            "image": "https://www.pontofrio-imagens.com.br/tv-video/Televisores/SmartTV/55002769/1233514066/aoc-roku-tv-smart-tv-led-43-43s5195-78-com-wi-fi-controle-remoto-com-atalhos-roku-mobile-miracast-entradas-hdmi-e-usb-55002769.jpg"
+        },
+        {
+            "name": "Smar TV LED 55' Full HD",
+            "image": "https://opiniaobomvaleapena.com.br/imagens/smart-tv-led-55-quot-lg-55lh6000-full-hd-com-conversor-digital-wi-fi-miracast-widi-2-usb-3-hdmi.png"
+        }
+    ],
+    "Móveis": [
+        {
+            "name": "Cama Box Queen",
+            "image": "https://a-static.mlcdn.com.br/618x463/cama-box-queen-box-colchao-plumatex-mola-ensacada-28cm-de-alt-dallas/magazineluiza/229205100/4cb55b9a912cf711573cfb1e660431dd.jpg"
+        },
+        {
+            "name": "Mesa de Jantar",
+            "image": "https://cdn.awsli.com.br/600x450/40/40892/produto/15517071/0fa141faf0.jpg"
+        },
+        {
+            "name": "Armário Noblesse",
+            "image": "https://cdnv2.moovin.com.br/elare/imagens/produtos/original/armario-2-portas-noblesse-1620x900-mobitec-moveis-6f68a40ab3a59b3a68fa5a769a2f3000.jpg"
+        },
+        {
+            "name": "Cadeira Eames",
+            "image": "https://a-static.mlcdn.com.br/618x463/cadeira-eames-branca-ecadeiras/ecadeiras/ec000009651/5790e2ea39caea48066884949e114318.jpg"
+        }
+    ],
+    "Esporte e Lazer": [
+        {
+            "name": "Bicileta City",
+            "image": "https://www.ciadopedal.com.br/16308-thickbox_default/bicicleta-700-city-21v-mobele.jpg"
+        },
+        {
+            "name": "Long Surf Neoprene",
+            "image": "https://decathlonpro.vteximg.com.br/arquivos/ids/2355636-500-500/sws100tw-2-2-m-surf-wetsuit-nav-s1.jpg?v=636942425303670000"
+        },
+        {
+            "name": "Bola de Futebol Réplica CBF",
+            "image": "https://static.netshoes.com.br/produtos/bola-de-futebol-campo-replica-brasil-cbf-nike-strike/44/HZM-1074-044/HZM-1074-044_zoom1.jpg?ts=1588480815"
+        }
+    ],
+
+    "Consoles": [
+        {
+            "name": "PS4",
+            "image": "https://s2.glbimg.com/SqIAPllR4jXgktccOOM6IxwVAUU=/695x0/s.glbimg.com/po/tt2/f/original/2016/09/07/ps4-pro.jpg"
+        },
+        {
+            "name": "XBOX One",
+            "image": "https://i.zst.com.br/images/console-xbox-one-s-1-tb-microsoft-hdr-4k-photo131312234-12-3d-14.jpg"
+        }
+    ],
+
+    "Jogos": [
+        {
+            "name": "Animal Crossing",
+            "image": "https://d3fa68hw0m2vcc.cloudfront.net/a1b/226887771.jpeg"
+        },
+        {
+            "name": "Rocket League",
+            "image": "https://http2.mlstatic.com/jogo-midia-fisica-rocket-league-para-nintendo-switch-D_NQ_NP_675608-MLB28292551737_102018-O.jpg"
+        },
+        {
+            "name": "God of War",
+            "image": "https://upload.wikimedia.org/wikipedia/pt/8/82/God_of_War_2018_capa.png"
+        }
+    ]
+}

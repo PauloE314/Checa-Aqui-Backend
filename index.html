@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testes</title>
+</head>
+<body>
+
+
+    <script>
+        const api_url = "http://127.0.0.1:8000";
+        //admin - 9aeb6d82012b54202a3dab5d2b8dd01fec074d97
+        //email_user - 223f743a382e9c2c689e7dcd418adf3ace66abb2	
+        //normal_user - 61381c146f5c304259500b33d28df2654038918d
+        const token = "a47165a7e9e5a51fae76e2ca644bbfd20f4df4cb";
+
+        fetch(`${api_url}/reviews/`,{
+            method: 'POST',
+            headers: {
+                'Authorization': 'Token ' + token,
+                'Content-Type': 'application/json'
+            },
+            //21 - email_use
+            body: JSON.stringify({
+                "store": "KABO",
+                "description": "lorem ipsum",
+                "grade": "5",
+                "product": "PS4"
+            })
+        })
+
+        .then(resp => {
+            // return resp.text()
+            return resp.json()
+        })
+        .then(resp => {
+            console.log(resp)
+        })
+        .catch(error => {
+            console.log(error)
+        })
+        //var1=value1&var2=value2
+    </script>
+</body>
+</html>
