@@ -94,9 +94,9 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 
 POSTGRESQL = {
     'ENGINE': 'django.db.backends.postgresql',
-    'NAME': 'knwynqnl',
-    'USER': 'knwynqnl',
-    'PASSWORD': 'EzHVPpmmrPhwlsJFqhTzq91WgFDriRE4',
+    'NAME': 'pndkdsqn',
+    'USER': 'pndkdsqn',
+    'PASSWORD': 'NQGutapxEmpq42jG3TjoGVfPKiYv6Sd8',
     'HOST': 'tuffi.db.elephantsql.com',
     'PORT': '5432'
 }
