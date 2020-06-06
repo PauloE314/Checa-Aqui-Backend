@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
 import os
-
+import django_heroku
 import config
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -22,10 +22,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 't2(1vffrpmhb2g4v#18%bloqrr=q33zp#2@+(*#me7=hkvw$_2'
+# SECRET_KEY = 't2(1vffrpmhb2g4v#18%bloqrr=q33zp#2@+(*#me7=hkvw$_2'
+SECRET_KEY = os.environ.get('CHECAAQUI_SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -94,9 +95,9 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 
 POSTGRESQL = {
     'ENGINE': 'django.db.backends.postgresql',
-    'NAME': 'pndkdsqn',
-    'USER': 'pndkdsqn',
-    'PASSWORD': 'NQGutapxEmpq42jG3TjoGVfPKiYv6Sd8',
+    'NAME': os.environ.get('CHECAAQUI_DB_NAME'),
+    'USER': os.environ.get('CHECAAQUI_DB_NAME'),
+    'PASSWORD': os.environ.get('CHECAAQUI_DB_PASSWORD'),
     'HOST': 'tuffi.db.elephantsql.com',
     'PORT': '5432'
 }
@@ -151,6 +152,8 @@ USE_TZ = False
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfile')
+
 
 CORS_ORIGIN_WHITELIST = [ ]
 CORS_ORIGIN_ALLOW_ALL = True
@@ -158,7 +161,11 @@ CORS_ORIGIN_ALLOW_ALL = True
 # EMAIL_BACKEND = 'django.core.mail.backend.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'megahacktime39@gmail.com'
-EMAIL_HOST_PASSWORD = "asenhaehsenha"
+EMAIL_HOST_PASSWORD = os.environ.get('CHECAAQUI_EMAIL_PASSWORD')
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
+
 # EMAIL_USE_SSL = False
+
+
+django_heroku.settings(locals())
